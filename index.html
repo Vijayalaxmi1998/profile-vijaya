@@ -6,33 +6,57 @@
     <title>Home</title>
     <style>
       header {
-        color: rgb(2, 249, 249);
-        background-color: rgb(19, 1, 1);
+        color: rgb(246, 250, 250);
+        background-color: rgb(250, 37, 37);
       }
-      #nav {
-        color: rgb(237, 49, 237);
+      /* nav{
+        color: rgb(22, 205, 129);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      } */
+      nav{
+        background-color: blue;
+        margin: 0;
+        pad: 0;
       }
+
+      nav a{
+            margin-right: 40px;
+            text-decoration: none;
+            color: aliceblue;
+            background-color: blue;
+        }
+        #homeLink{
+            margin-left: 10px;
+        }
+        span{
+        margin-right: 40px;
+        }
+        #name{
+          margin-left: 10px;
+        }
+        /* body{
+          background-color: cadetblue;
+        } */
     </style>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <span
-        >Name:Vijayalaxmi Kaleguddi &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9561 7848
-        97 &nbsp;&nbsp;&nbsp;&nbsp; Email: vkaleguddi@gmail.com</span
+      <span id="name"
+        >Name:Vijayalaxmi Kaleguddi </span><span>Mobile: 9561 7848 97</span>
+ <span>Email: vkaleguddi@gmail.com</span
       >
     </header>
     <hr />
     <!-- Navigation Section -->
-    <nav id="nav">
-      <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp;
-      &nbsp;
-      <a href="techStack.html" target="mainFrame">TECH STACK</a> &nbsp;&nbsp;
-      &nbsp; &nbsp; &nbsp;
-      <a href="project.html" target="mainFrame">PROJECT</a> &nbsp;&nbsp; &nbsp;
-      &nbsp; &nbsp;
-      <a href="education.html" target="mainFrame">EDUCATION</a> &nbsp;&nbsp;
-      &nbsp; &nbsp; &nbsp;
+    <nav>
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a> 
+      <a href="techStack.html" target="mainFrame">TECH STACK</a> 
+      
+      <a href="project.html" target="mainFrame">PROJECT</a> 
+      
+      <a href="education.html" target="mainFrame">EDUCATION</a>
+      
       <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
     <hr />
