@@ -6,11 +6,12 @@
     <title>Home</title>
     <!-- font-family link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
         h2{
             font-family: 'Poppins', sans-serif;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
         }
         p{
             text-transform: uppercase;
@@ -33,12 +34,17 @@
         /* body{
             background-color: darkgray;
         } */
-li{
-    padding: 5px;
-}
-ul li{list-style-type: square;
-    font-family: 'Roboto', sans-serif;
-}
+        li{
+        padding: 5px;
+        }
+        ul li{list-style-type: none;
+        font-family: 'Roboto', sans-serif;
+
+
+        }
+        ul li::before{
+        content:"➡️";
+        }
     </style>
 <body>
     <h2 class="obj">Carrer Objectives</h2>
@@ -55,8 +61,5 @@ ul li{list-style-type: square;
         <li>Knowledge of NodeJS</li>
         <li>Knowledge pf API and Database</li>
     </ul>
-
-   
-    
 </body>
 </html>
